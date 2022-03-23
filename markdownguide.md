@@ -261,3 +261,26 @@ And here's another paragraph that's
 | Header      | Title |
 
 | Paragraph   | First paragragh. <br><br> Second paragraph. |
+
+# Css Style
+
+6
+
+The simplest way to add custom css styles is to use Pandoc attributes syntax (which can convert Markdown to html, pdf, pppt and more)
+
+Heading Identifiers:
+### Red text title {#identifier .red}
+
+Fenced Code Attributes:
+{.red .numberLines startFrom="1"}
+
+Inline Code Attributes:
+`red text`{.red}
+
+Bracketed Spans:
+[This is *some red text*]{.red}
+
+Link Attributes:
+![alt text](the.jpg){.center}
+
+
